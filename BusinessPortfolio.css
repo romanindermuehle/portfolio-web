@@ -1,0 +1,46 @@
+nav a:hover {
+  color: forestgreen;
+}
+.skills_Image {
+  width: 80%;
+  justify-content: center;
+  height: auto;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.swift {
+  color: red;
+  font-weight: bold;
+  display: inline;
+  padding: 63px;
+}
+.git {
+  color: blue;
+  font-weight: bold;
+  display: inline;
+  padding: 70px;
+}
+.html_css {
+  color: green;
+  font-weight: bold;
+  display: inline;
+  padding: 40px;
+}
+.c {
+  color: rgb(194, 194, 19);
+  font-weight: bold;
+  display: inline;
+  padding: 68px;
+}
+.link_tag a{
+  text-decoration: none;
+  color: forestgreen;
+}
+

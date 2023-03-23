@@ -1,0 +1,15 @@
+nav a:hover {
+  color: #FFD700;
+}
+.link_tag a{
+  text-decoration: none;
+  color: #FFD700;
+}
+.post_Image {
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  border-radius: 40px;
+  border: 3px solid #FFD700;
+}
+
