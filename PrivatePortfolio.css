@@ -5,6 +5,13 @@ nav a:hover {
   text-decoration: none;
   color: darkslateblue;
 }
+.commingSoon_Image {
+  width: 70%;
+  justify-content: center;
+  height: auto;
+  border-radius: 40px;
+  border: 3px solid darkslateblue;
+}
 .project_Image {
   width: 100%;
   justify-content: center;

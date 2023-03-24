@@ -94,7 +94,6 @@ nav a {
 .flex_container p {
   text-align: justify;
   line-height: 175%;
-  text-align: center;
 }
 .card {
   width: 400px;
@@ -129,7 +128,7 @@ nav a {
   /* for horizontal aligning of child divs */
   justify-content: center;
   /* for vertical aligning */
-  align-items: center;
+  align-items: baseline;
   margin-top: 100px;
   gap: 30px;
 }
