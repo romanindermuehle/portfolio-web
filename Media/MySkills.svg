@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="377px" height="377px" viewBox="0 0 377 377" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="red" transform="translate(13.000000, 13.000000)" stroke="#FF0000" stroke-width="25">
+            <circle id="background" opacity="0.2" cx="175" cy="175" r="175"></circle>
+            <path d="M111.43472,338.097823 C131.138176,345.782632 152.576578,350 175,350 C271.649831,350 350,271.649831 350,175 C350,78.3501688 271.649831,0 175,0" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+        <g id="blue" transform="translate(48.000000, 48.000000)" stroke="#3062FF" stroke-width="25">
+            <circle id="Oval" opacity="0.2" cx="140" cy="140" r="140"></circle>
+            <path d="M31.2546205,228.180033 C56.923242,259.796185 96.1021941,280 140,280 C217.319865,280 280,217.319865 280,140 C280,62.680135 217.319865,0 140,0" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+        <g id="green" transform="translate(83.000000, 83.000000)" stroke="#2FEB1A" stroke-width="25">
+            <circle id="background" opacity="0.2" cx="105" cy="105" r="105"></circle>
+            <path d="M23.4409654,171.135025 C42.6924315,194.847139 72.0766456,210 105,210 C162.989899,210 210,162.989899 210,105 C210,47.0101013 162.989899,0 105,0" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+        <g id="yellow" transform="translate(120.000000, 120.000000)" stroke="#C9EB03" stroke-width="25">
+            <circle id="background" opacity="0.2" cx="67.5" cy="67.5" r="67.5"></circle>
+            <path d="M110.006523,119.937992 C125.255105,107.562176 135,88.6691092 135,67.5 C135,30.2207794 104.779221,0 67.5,0" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

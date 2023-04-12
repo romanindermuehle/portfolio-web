@@ -42,6 +42,9 @@
     font-size: small;
     padding: 3%;
   }
+  .cv_container {
+    background-color: #504848;
+  }
 }
 header {
   padding: 80px;
@@ -92,7 +95,7 @@ nav a {
   flex-wrap: wrap;
 }
 .flex_container p {
-  text-align: justify;
+  text-align: left;
   line-height: 175%;
 }
 .card {
@@ -117,7 +120,6 @@ nav a {
   align-items: center;
 }
 .text_card {
-  text-align: justify;
   line-height: 175%;
   text-align: left;
 
