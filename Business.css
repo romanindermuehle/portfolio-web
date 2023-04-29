@@ -15,35 +15,12 @@ nav a:hover {
   gap: 30px;
   margin-top: 20px;
 }
-.swift {
-  color: red;
-  font-weight: bold;
-  display: inline;
-  padding: 63px;
-}
-.git {
-  color: blue;
-  font-weight: bold;
-  display: inline;
-  padding: 70px;
-}
-.html_css {
-  color: green;
-  font-weight: bold;
-  display: inline;
-  padding: 40px;
-}
-.c {
-  color: rgb(194, 194, 19);
-  font-weight: bold;
-  display: inline;
-  padding: 68px;
-}
 .link_tag a{
   text-decoration: none;
   color: forestgreen;
 }
 .cv_container {
+  margin-top: 25px;
   max-width: 400px;
   max-height: 350px;
   background-color: #d9d9d9;

@@ -1,18 +1,19 @@
-.circle {
-  height: 225px;
-  width: 225px;
-  overflow: hidden;
-  max-height: 80vw;
-  max-width: 80vw;
-  border-radius: 50%;
-  border: 8px solid #1560bd;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  /*box-shadow: 10px 15px 12px gray;*/
+@media (max-width: 600px) {
+  .infoContainer {
+    flex-wrap: wrap;
+  }
 }
-.circle img {
-  height: 100%;
+.portrait {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+.infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
 }
 nav a:hover {
   color: #1560bd;
@@ -20,26 +21,24 @@ nav a:hover {
 .aboutMe_container {
   justify-content: center;
   align-items: center;
-  max-width: 90%;
-  margin-top: 120px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
   flex-wrap: wrap;
 }
-.aboutMe_text p {
-  text-align: justify;
-  text-align: center;
-  padding: 10%;
+.aboutMe_text {
+  font-size: medium;
+  max-width: 350px;
+  padding: 30px;
 }
 .contact_container {
   max-width: 400px;
   max-height: auto;
   background-color: #d9d9d9;
   border-radius: 25px;
-  padding: 50px 30px;
+  padding: 50px;
   overflow-y: hidden;
-
   flex-direction: row;
   flex-wrap: wrap;
   display: flex;
@@ -48,7 +47,7 @@ nav a:hover {
   justify-content: center;
   gap: 40px;
 }
-.button a{
+.button a {
   text-decoration: none;
   font-weight: bold;
   color: white;
