@@ -15,7 +15,7 @@ nav a:hover {
   gap: 30px;
   margin-top: 20px;
 }
-.link_tag a{
+.link_tag a {
   text-decoration: none;
   color: forestgreen;
 }
@@ -23,7 +23,7 @@ nav a:hover {
   margin-top: 25px;
   max-width: 400px;
   max-height: 350px;
-  background-color: #d9d9d9;
+  /*background-color: #d9d9d9;*/
   border-radius: 25px;
   padding: 50px 30px;
   overflow-y: hidden;
