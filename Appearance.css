@@ -34,16 +34,10 @@
     line-height: 115%;
     color: white;
   }
-  .contact_container {
-    background-color: #3b3b3b;
-  }
   footer {
     color: rgba(255, 255, 255, 0.479);
     font-size: small;
     padding: 3%;
-  }
-  .cv_container {
-    background-color: #504848;
   }
 }
 @media (max-width: 600px) {
