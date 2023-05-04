@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 30 30" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<g id="Ohne-Titel" vectornator:layerName="Ohne Titel">
+<g opacity="1" vectornator:layerName="path">
+<clipPath id="ClipPath">
+<path d="M0 0L30 0L30 30L0 30L0 0Z"/>
+</clipPath>
+<g clip-path="url(#ClipPath)">
+<path d="M12 15.2393C13.81 15.2393 14.92 15.1303 15.51 15.1203C14.53 17.4503 13.68 20.3093 13.1 23.0003L15.56 23.0003C16.14 20.0003 17.05 17.2503 18 15.0003L18 13.0003L12 13.0003L12 15.2393Z" fill="#b7b7b7" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="path"/>
+<path d="M22.9961 26L7.0031 26C6.4501 26 6.0001 25.55 6.0001 24.996L6.0001 10L24.0001 10L24.0001 24.996C24.0001 25.55 23.5501 26 22.9961 26M26.0001 24.996L26.0001 7C26.0001 6.448 25.5531 6 25.0001 6L22.0001 6L22.0001 3C22.0001 2.448 21.5531 2 21.0001 2C20.4471 2 20.0001 2.448 20.0001 3L20.0001 6L10.0001 6L10.0001 3C10.0001 2.448 9.5521 2 9.0001 2C8.4481 2 8.0001 2.448 8.0001 3L8.0001 6L5.0001 6C4.4481 6 4.0001 6.448 4.0001 7L4.0001 24.996C4.0001 26.652 5.3471 28 7.0031 28L22.9961 28C24.6521 28 26.0001 26.652 26.0001 24.996" fill="#b7b7b7" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="path"/>
+</g>
+</g>
+</g>
+</svg>
