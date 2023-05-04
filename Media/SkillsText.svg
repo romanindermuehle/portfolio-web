@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Twitter (Square)@1x</title>
-    <g id="Twitter-(Square)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="SFPro-Black, SF Pro" font-size="48" font-weight="700">
+    <g id="Twitter-(Square)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="48" font-weight="normal">
         <text id="Swift" fill="#FF453A">
-            <tspan x="16.0976562" y="174">Swift</tspan>
+            <tspan x="21.4882812" y="173">Swift</tspan>
         </text>
         <text id="55/100%" fill="#FF453A">
-            <tspan x="377.945312" y="174">55/100%</tspan>
+            <tspan x="389.957031" y="174">55/100%</tspan>
         </text>
         <text id="Git" fill="#0A84FF">
-            <tspan x="17.1132812" y="277">Git</tspan>
+            <tspan x="17.9921875" y="277">Git</tspan>
         </text>
         <text id="65/100%" fill="#0A84FF">
-            <tspan x="376.417969" y="277">65/100%</tspan>
+            <tspan x="388.957031" y="277">65/100%</tspan>
         </text>
         <text id="HTML-&amp;-CSS" fill="#30D158">
-            <tspan x="13.1210938" y="380">HTML &amp; CSS</tspan>
+            <tspan x="11.7617188" y="380">HTML &amp; CSS</tspan>
         </text>
         <text id="65/100%" fill="#30D158">
-            <tspan x="377.417969" y="380">65/100%</tspan>
+            <tspan x="389.957031" y="380">65/100%</tspan>
         </text>
         <text id="C#" fill="#FFD60A">
-            <tspan x="17.2929688" y="483">C#</tspan>
+            <tspan x="20.4921875" y="483">C#</tspan>
         </text>
         <text id="35/100%" fill="#FFD60A">
-            <tspan x="378.386719" y="483">35/100%</tspan>
+            <tspan x="390.457031" y="483">35/100%</tspan>
         </text>
     </g>
 </svg>

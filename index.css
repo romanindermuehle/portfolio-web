@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-  .infoContainer {
+  .detailContainer {
     flex-wrap: wrap;
   }
 }
@@ -9,13 +9,17 @@
   height: auto;
   border-radius: 10px;
 }
-.infoContainer {
+.detailContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10%;
+  margin-top: 5%;
 }
 nav a:hover {
+  color: #1560bd;
+}
+.link_tag a {
+  text-decoration: none;
   color: #1560bd;
 }
 .aboutMe_container {
@@ -38,6 +42,7 @@ nav a:hover {
   /*background-color: #d9d9d9;*/
   border-radius: 25px;
   padding: 50px;
+  margin-top: 5%;
   overflow-y: hidden;
   flex-direction: row;
   flex-wrap: wrap;
@@ -46,32 +51,6 @@ nav a:hover {
   text-align: center;
   justify-content: center;
   gap: 40px;
-}
-.button a {
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-}
-.button {
-  background-color: #1560bd;
-  width: 125px;
-  height: 70px;
-  border-radius: 50px;
-  border: none;
-  justify-content: center;
-  display: flex;
-  text-align: right;
-  align-items: center;
-  padding: 3%;
-}
-.contact_button {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
 }
 .header_Image {
   width: 100%;

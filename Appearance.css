@@ -19,6 +19,7 @@
     color: var(rgba(0, 0, 0, 0.16));
     font-size: small;
     padding: 3%;
+    margin-top: 5%;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -38,6 +39,7 @@
     color: rgba(255, 255, 255, 0.479);
     font-size: small;
     padding: 3%;
+    margin-top: 5%;
   }
 }
 @media (max-width: 600px) {
@@ -62,6 +64,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15%;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -88,7 +91,7 @@ nav a {
 .flex_container {
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 5%;
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
@@ -124,5 +127,6 @@ nav a {
   /* for vertical aligning */
   align-items: baseline;
   margin-top: 100px;
+  padding: 5px;
   gap: 30px;
 }
