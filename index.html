@@ -8,10 +8,9 @@
     <link rel="icon" type="image/x-icon" href="Media/RI_Icon-Web.svg" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="Appearance.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+    <!--Font-->
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -22,7 +21,7 @@
       <div class="header">
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" style="color: #1560bd;">Home</a></li>
             <li><a href="Business.html">Business</a></li>
             <li><a href="Personal.html">Personal</a></li>
             <li>
@@ -31,11 +30,63 @@
           </ul>
         </nav>
         <h1>
-          <span>Hello, I'm</span>
-          <span style="color: #1560bd">Roman</span>
+          <p>Hello, I'm</p>
+          <p style="color: #1560bd">Roman</p>
         </h1>
       </div>
     </header>
+
+    <!--Ongoing projects-->
+      <div class="flex_container">
+        <h2>Ongoing projects</h2>
+        <div class="stack">
+          <div class="card">
+            <img src="Media/Xcode.jpg" class="card_Image" alt="" />
+            <div class="text_card">
+              <h3 style="color: #1560bd">iOS development internship</h3>
+              <p style="padding-bottom: 2%">
+                <img
+                  src="Media/calendar.svg"
+                  style="
+                    width: 30px;
+                    height: 30px;
+                    float: left;
+                    margin-right: 5px;
+                  "
+                  alt=""
+                />
+                Now - 10.05.2023
+              </p>
+              <p style="margin-bottom: 2%;">Photo by Wallpapercave</p>
+              <p>
+                Description will follow soon...
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Media/Forest Flow Promo.png" class="card_Image" alt="" />
+            <div class="text_card">
+              <h3 style="color: #1560bd">Forest Flow</h3>
+              <p style="padding-bottom: 2%">
+                <img
+                  src="Media/calendar.svg"
+                  style="
+                    width: 30px;
+                    height: 30px;
+                    float: left;
+                    margin-right: 5px;
+                  "
+                  alt=""
+                />
+                Now - 11.04.2023
+              </p>
+              <p>
+                More information coming soon...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!--AboutMe section-->
     <div class="aboutMe_container">
@@ -68,18 +119,18 @@
           </a>
         </div>
         <div class="link_tag">
-          <a href="mailto: roman.indermuehle@icloud.com">
-            <p>My private mail -></p>
-          </a>
-        </div>
-        <div class="link_tag">
-          <a href="mailto: roman.indermuehle@swisscom.com">
-            <p>My business mail -></p>
+          <a href="mailto: roman@romanindermuehle.ch">
+            <p>Mail -></p>
           </a>
         </div>
         </div>
       </div>
     </div>
-    <footer>Copyright 2023 © Portfolio website</footer>
+    <footer>
+      2023© Roman Indermühle
+      <div class="link_tag" style="margin-top: 2%;">
+        <a href="Imprint/imprint.html">Imprint</a>
+      </div>
+    </footer>
   </body>
 </html>

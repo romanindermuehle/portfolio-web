@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +14,11 @@
   body {
     min-height: 100vh;
     background-color: #f5f5f5;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
   }
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 115%;
   }
   footer {
@@ -26,12 +32,11 @@
   body {
     min-height: 100vh;
     background-color: #1a1a1a;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
   }
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 115%;
     color: white;
   }
@@ -51,20 +56,20 @@
   nav a {
     font-size: medium;
   }
-  nav ul {
-    gap: 10px;
-  }
 }
 @media (min-width: 600px) {
   .flex_container {
     flex-direction: column;
+  }
+  nav ul {
+    gap: 20px;
   }
 }
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -74,12 +79,11 @@ nav {
 nav li {
   text-align: center;
   float: left;
-  margin: 15px auto;
+  margin: 15px;
 }
 nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
 }
 nav a {
   color: #b3b4b6;
@@ -93,7 +97,6 @@ nav a {
   align-items: center;
   margin-top: 5%;
   display: flex;
-  gap: 40px;
   flex-wrap: wrap;
 }
 .flex_container p {
@@ -126,7 +129,7 @@ nav a {
   justify-content: center;
   /* for vertical aligning */
   align-items: baseline;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 5px;
   gap: 30px;
 }

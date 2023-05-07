@@ -1,19 +1,38 @@
+@media (max-width: 600px) {
+  .skillsDetail {
+    flex-wrap: wrap;
+  }
+}
 nav a:hover {
   color: forestgreen;
 }
 .skills_Image {
-  width: 60%;
-  justify-content: center;
+  width: 100%;
+  max-width: 300px;
   height: auto;
+  border-radius: 10px;
 }
-.skills {
-  display: flex;
-  flex-direction: column;
+.skillsContainer {
   justify-content: center;
   align-items: center;
-  text-align: center;
-  gap: 30px;
-  margin-top: 20px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.skillsDetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 5%;
+}
+.skillsText {
+  font-size: large;
+  line-height: 175%;
+  max-width: 350px;
+  padding: 30px;
 }
 .link_tag a {
   text-decoration: none;

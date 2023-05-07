@@ -8,10 +8,9 @@
     <link rel="icon" type="image/x-icon" href="Media/RI_Icon-Web.svg" />
     <link rel="stylesheet" href="Business.css" />
     <link rel="stylesheet" href="Appearance.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+    <!--Font-->
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </head>
   <body>
     <header>
@@ -19,7 +18,9 @@
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="Business.html">Business</a></li>
+            <li>
+              <a href="Business.html" style="color: forestgreen">Business</a>
+            </li>
             <li><a href="Personal.html">Personal</a></li>
             <li>
               <a href="https://blog.romanindermuehle.ch">Blog</a>
@@ -27,35 +28,31 @@
           </ul>
         </nav>
         <h1>
-          <span style="color: forestgreen">Business</span>
-          <span>Portfolio</span>
+          <p style="color: forestgreen">Business</p>
+          <p>Portfolio</p>
         </h1>
       </div>
     </header>
 
-    <!-- Current projects section-->
-    <!--
+    <!-- Projects section-->
     <div>
       <div class="flex_container">
-        <h2>Current project</h2>
-        <div class="stack"></div>
-      </div>
-    </div> -->
-
-    <!-- Rencent projects section-->
-    <div>
-      <div class="flex_container">
-        <h2>Recent projects</h2>
+        <h2>Projects</h2>
         <div class="stack">
           <div class="card">
             <img src="Media/Antenne1.jpg" class="card_Image" alt="" />
             <div class="text_card">
               <h3 style="color: forestgreen">IMS IP Telephony</h3>
 
-              <p style="display: inline-block; padding-bottom: 2%">
+              <p style="padding-bottom: 2%">
                 <img
-                  src="Media/CalendarIcon.svg"
-                  style="width: 30px; height: 30px"
+                  src="Media/calendar.svg"
+                  style="
+                    width: 30px;
+                    height: 30px;
+                    float: left;
+                    margin-right: 5px;
+                  "
                   alt=""
                 />
                 07.11.2022 - 30.04.2023
@@ -73,13 +70,18 @@
             </div>
           </div>
           <div class="card">
-            <img src="Media/SC2018032310019.jpg" class="card_Image" alt="" />
+            <img src="Media/Berge.jpg" class="card_Image" alt="" />
             <div class="text_card">
               <h3 style="color: forestgreen">Onboarding</h3>
-              <p style="display: inline-block; padding-bottom: 2%">
+              <p style="padding-bottom: 2%">
                 <img
-                  src="Media/CalendarIcon.svg"
-                  style="width: 30px; height: 30px"
+                  src="Media/calendar.svg"
+                  style="
+                    width: 30px;
+                    height: 30px;
+                    float: left;
+                    margin-right: 5px;
+                  "
                   alt=""
                 />
                 15.08 - 06.11.2022
@@ -93,13 +95,18 @@
             </div>
           </div>
           <div class="card">
-            <img src="Media/SC2021080400003.jpg" class="card_Image" alt="" />
+            <img src="Media/Antenne2.jpg" class="card_Image" alt="" />
             <div class="text_card">
               <h3 style="color: forestgreen">First Steps</h3>
-              <p style="display: inline-block; padding-bottom: 2%">
+              <p style="padding-bottom: 2%">
                 <img
-                  src="Media/CalendarIcon.svg"
-                  style="width: 30px; height: 30px"
+                  src="Media/calendar.svg"
+                  style="
+                    width: 30px;
+                    height: 30px;
+                    float: left;
+                    margin-right: 5px;
+                  "
                   alt=""
                 />
                 01.08 - 12.08.2022
@@ -119,12 +126,21 @@
 
     <!--Skills section-->
     <div>
-      <div class="flex_container">
+      <div class="skillsContainer">
         <h2>Skills</h2>
-        <div class="skills">
+        <div class="skillsDetail">
           <img src="Media/MySkills.svg" class="skills_Image" alt="" />
-          <img src="Media/SkillsText.svg" width="55%" alt="" />
+          <div class="skillsText">
+            <h3 style="color: red; font-weight: bold">Swift</h3>
+            <h3 style="color: blue; font-weight: bold">Git</h3>
+            <h3 style="color: rgb(0, 255, 0); font-weight: bold">HTML&CSS</h3>
+            <h3 style="color: yellow; font-weight: bold">C#</h3>
+          </div>
         </div>
+      </div>
+
+      <!--CV section-->
+      <div class="flex_container">
         <div class="cv_container">
           <div style="text-align: center">
             <h2>My CV</h2>
@@ -144,6 +160,11 @@
         </div>
       </div>
     </div>
-    <footer>Copyright 2023 © Portfolio website</footer>
+    <footer>
+      2023© Roman Indermühle
+      <div class="link_tag" style="margin-top: 2%">
+        <a href="Imprint/imprint.html">Imprint</a>
+      </div>
+    </footer>
   </body>
 </html>
