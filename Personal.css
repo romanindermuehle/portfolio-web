@@ -1,13 +1,13 @@
 nav a:hover {
   color: darkslateblue;
 }
-.link_tag a{
+.link_tag a {
   text-decoration: none;
   color: darkslateblue;
 }
 .project_Image {
   width: 100%;
-  justify-content: center;
   height: auto;
+  justify-content: center;
   border-radius: 40px;
 }
